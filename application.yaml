@@ -6,3 +6,8 @@ eureka:
     register-with-eureka: true
   instance:
     preferIpAddress: true
+
+okta:
+  oauth2:
+    issuer: https://dev-31074102.okta.com/oauth2/default
+    audience: api://default
